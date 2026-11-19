@@ -1,0 +1,33 @@
+:root{--bg:#FFF8F0;--surface:#FFFFFF;--alt:#F7EDE1;--border:#EADBC8;--text:#3A2E26;--muted:#7A6A5D;--primary:#E07B26;--primary-text:#B85E14}
+@media (prefers-color-scheme:dark){:root{--bg:#1C1714;--surface:#2A231E;--alt:#352C26;--border:#463A31;--text:#F5EBE0;--muted:#B8A99B;--primary:#F5A05A;--primary-text:#F5A05A}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--text);font:17px/1.65 -apple-system,BlinkMacSystemFont,"SF Pro Text","PingFang SC","Hiragino Sans GB","Microsoft YaHei",system-ui,sans-serif}
+a{color:var(--primary-text)}
+.wrap{max-width:720px;margin:0 auto;padding:0 20px}
+header.top{display:flex;align-items:center;justify-content:space-between;padding:18px 0}
+header.top .brand{display:flex;align-items:center;gap:10px;font-weight:800;font-size:19px;color:var(--text);text-decoration:none}
+header.top .brand svg{width:40px;height:31px}
+header.top .lang{font-size:15px;padding:6px 12px;border:1px solid var(--border);border-radius:999px;text-decoration:none;color:var(--text);background:var(--surface)}
+.hero{text-align:center;padding:28px 0 8px}
+.hero .pig{width:150px;height:115px}
+.hero h1{font:800 40px/1.2 ui-rounded,"SF Pro Rounded",-apple-system,"PingFang SC",sans-serif;margin:12px 0 4px}
+.hero .tagline{font-size:20px;color:var(--muted);margin:0 0 18px}
+.hero .status{display:inline-block;background:var(--primary);color:#fff;font-weight:700;padding:10px 18px;border-radius:999px;font-size:15px}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:22px;padding:20px 22px;margin:20px 0}
+.features{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr));gap:14px;margin:20px 0}
+.features .card{margin:0}
+.features h3{margin:0 0 4px;font-size:17px}
+.features p{margin:0;color:var(--muted);font-size:15px}
+h2{font-size:22px;margin:32px 0 10px}
+h3{font-size:18px;margin:20px 0 6px}
+details{border-top:1px solid var(--border);padding:12px 0}
+details:first-of-type{border-top:0}
+summary{cursor:pointer;font-weight:650}
+details p{margin:8px 0 0;color:var(--muted)}
+.doc h1{font-size:30px;margin:12px 0 4px}
+.doc li{margin:4px 0}
+footer{margin:40px 0;padding:20px 0;border-top:1px solid var(--border);font-size:14px;color:var(--muted);display:flex;flex-wrap:wrap;gap:8px 18px}
+footer a{color:var(--muted)}
+.mail{font-weight:700;word-break:break-all}
+.todo{background:#FCE3C6;color:#7A3E00;padding:1px 6px;border-radius:6px}
