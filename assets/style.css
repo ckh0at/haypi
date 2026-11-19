@@ -7,10 +7,10 @@ a{color:var(--primary-text)}
 .wrap{max-width:720px;margin:0 auto;padding:0 20px}
 header.top{display:flex;align-items:center;justify-content:space-between;padding:18px 0}
 header.top .brand{display:flex;align-items:center;gap:10px;font-weight:800;font-size:19px;color:var(--text);text-decoration:none}
-header.top .brand svg{width:40px;height:31px}
+header.top .brand img{width:36px;height:36px;border-radius:22.5%;box-shadow:0 1px 3px rgba(0,0,0,.15)}
 header.top .lang{font-size:15px;padding:6px 12px;border:1px solid var(--border);border-radius:999px;text-decoration:none;color:var(--text);background:var(--surface)}
 .hero{text-align:center;padding:28px 0 8px}
-.hero .pig{width:150px;height:115px}
+.hero .appicon{width:168px;height:168px;border-radius:22.5%;box-shadow:0 10px 30px rgba(120,80,40,.22),0 2px 6px rgba(0,0,0,.08)}
 .hero h1{font:800 40px/1.2 ui-rounded,"SF Pro Rounded",-apple-system,"PingFang SC",sans-serif;margin:12px 0 4px}
 .hero .tagline{font-size:20px;color:var(--muted);margin:0 0 18px}
 .hero .status{display:inline-block;background:var(--primary);color:#fff;font-weight:700;padding:10px 18px;border-radius:999px;font-size:15px}
